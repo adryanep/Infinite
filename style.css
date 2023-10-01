@@ -1,0 +1,269 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 90%;
+  height: 70px;
+  background-color: #965906;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: azure;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+nav ul li a:hover {
+  color: burlywood;
+}
+
+.logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: azure;
+  font-size: 35px;
+  margin: 15px;
+  margin-left: px;
+  font-weight: bold;
+}
+
+#home {
+  width: 100%;
+  height: 95vh;
+  position: relative;
+}
+
+.home p {
+  line-height: 0px;
+  margin: 55px 0px 25px;
+}
+
+.home p:nth-child(1) {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+.home p:nth-child(2) {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: burlywood;
+  letter-spacing: none;
+  font-size: 45px;
+}
+.home p:nth-child(3) {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 45px;
+}
+
+.home {
+  position: absolute;
+  left: 5%;
+  right: 10%;
+  transform: translate(10%, 42%);
+}
+
+.picture {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 80%;
+  top: 20%;
+  transform: translateX(-70%);
+}
+
+.about {
+  height: 135vh;
+  background-color: #965906;
+  padding: 2% 10% 10%;
+}
+
+.about-desc {
+  margin: 50px 50px;
+}
+
+.about-desc p:nth-child(1) {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: burlywood;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-desc p:nth-child(2) {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.row {
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex: 50%;
+  flex-wrap: wrap;
+}
+
+.row .column h2 {
+  text-align: center;
+}
+
+.row .column p {
+  text-align: justify;
+}
+
+.column {
+  width: 35%;
+  padding: 30px;
+  margin: 5px;
+  border-bottom: 5px solid brown;
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  flex: 50%;
+  margin: 10px;
+}
+
+.subcard {
+  width: 58vh;
+  padding: 30px;
+  margin: 30px;
+  height: 85vh;
+}
+
+.avatar {
+  width: 250px;
+  left: 20%;
+  transform: translate(30%);
+}
+
+.ecertificate {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.certificate {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ecertificate h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  overflow-x: auto;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.gallery-item {
+  flex-shrink: 0;
+  width: 200px;
+  margin-right: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.answer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #965906;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: burlywood;
+}
+
+.footer {
+  background-color: #965906;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons .icon {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icons .icon:hover {
+  color: #00bcd4;
+}
